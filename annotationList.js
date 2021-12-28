@@ -213,7 +213,7 @@ adobeDCView.registerCallback(
                     console.log(error)
                 });
 
-            /* API to remove annotations from PDF and return the updated PDF buffer along with the list of annotations */
+            /* API to remove annotations from PDF and return the updated PDF buffer along with the list of annotations 
             setTimeout(function() {
                 annotationManager.removeAnnotationsFromPDF()
                 .then(function (result) {
@@ -222,7 +222,7 @@ adobeDCView.registerCallback(
                 .catch(function (error) {
                     console.log(error)
                 });
-            }, 3000);
+            }, 3000);                                                             */
           /* koniec dodania */
           
           
