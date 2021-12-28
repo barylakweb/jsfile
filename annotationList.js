@@ -205,7 +205,7 @@ adobeDCView.registerCallback(
           
           /*dodane */
           
-            annotationManager.addAnnotationsInPDF(annotManager)
+            annotationManager.addAnnotationsInPDF(annotations)
                 .then(function (result) {
                     console.log("Annotations added to PDF successfully and updated PDF buffer returned.", result)
                 })
