@@ -9,15 +9,15 @@ written permission of Adobe.
 */
 
 const annotations = [
-    {
+{
     "@context": [
         "https://www.w3.org/ns/anno.jsonld",
         "https://comments.acrobat.com/ns/anno.jsonld"
     ],
-    "id": "b8b9974c-a809-83b8-3fh2-7baaabbab9a",
+    "id": "dc90ae25-b7ae-897f-54ha-ab791896894",
     "type": "Annotation",
     "motivation": "commenting",
-    "bodyValue": "Added a shape",
+    "bodyValue": "Płyty kotwowe - to od nich zaczynamy budowę komina, wyróżniamy dwa typy płyt kotwowych",
     "target": {
         "source": "6d07d124-ac85-43b3-a867-36930f502ac6",
         "selector": {
@@ -25,80 +25,98 @@ const annotations = [
                 "index": 0
             },
             "opacity": 0.4,
-            "subtype": "shape",
+            "subtype": "note",
             "boundingBox": [
-                84.07891900572059,
-                606.3241170007889,
-                103.49574899020261,
-                619.2686703237769
+                476.7857678236235,
+                687.7214722087041,
+                493.81383096018146,
+                704.7495353452621
             ],
-            "inkList": [
-                [
-                    87.962285002617,
-                    615.3853043268805,
-                    87.962285002617,
-                    614.738076660731,
-                    88.6095126687664,
-                    614.738076660731,
-                    90.5511956672146,
-                    612.7963936622829,
-                    91.8456509995134,
-                    612.7963936622829,
-                    93.7873339979616,
-                    612.7963936622829,
-                    94.434561664111,
-                    612.7963936622829,
-                    95.0817893302604,
-                    612.7963936622829,
-                    96.3762446625592,
-                    612.7963936622829,
-                    97.0234723287086,
-                    612.7963936622829,
-                    97.67069999485801,
-                    612.7963936622829,
-                    98.3179276610074,
-                    612.7963936622829,
-                    99.61238299330621,
-                    612.7963936622829,
-                    99.61238299330621,
-                    612.1491659961334,
-                    99.61238299330621,
-                    611.5019383299841,
-                    99.61238299330621,
-                    610.2074829976852,
-                    98.3179276610074,
-                    610.2074829976852,
-                    97.67069999485801,
-                    610.2074829976852,
-                    97.0234723287086,
-                    610.2074829976852,
-                    96.3762446625592,
-                    610.2074829976852,
-                    95.0817893302604,
-                    610.2074829976852,
-                    94.434561664111,
-                    610.2074829976852,
-                    93.7873339979616,
-                    610.2074829976852,
-                    93.1401063318122,
-                    611.5019383299841,
-                    91.8456509995134,
-                    611.5019383299841
-                ]
-            ],
-            "strokeColor": "#b80000",
-            "strokeWidth": 3,
+            "strokeColor": "#fccb00",
             "type": "AdobeAnnoSelector"
         }
     },
     "creator": {
         "id": "barylakweb@gmail.com",
-        "name": "Sebastian",
+        "name": "Eksper Kamaro 'FHU'",
         "type": "Person"
     },
-    "created": "2021-12-28T14:46:46Z",
-    "modified": "2021-12-28T14:46:46Z"
+    "created": "2021-12-29T08:02:32Z",
+    "modified": "2021-12-29T08:02:32Z"
+},
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "8db5aae1-8ae6-8d0f-52hb-4b1a5aa688f",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Przepusty dachowe dobieramy w zależności od kątu nachylenia dachu. Wyrózniamy ",
+    "target": {
+        "source": "6d07d124-ac85-43b3-a867-36930f502ac6",
+        "selector": {
+            "node": {
+                "index": 21
+            },
+            "opacity": 0.4,
+            "subtype": "note",
+            "boundingBox": [
+                302.7211224276975,
+                355.67424104582346,
+                319.7491855642554,
+                372.70230418238145
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "id": "barylakweb@gmail.com",
+        "name": "Eksper Kamaro 'FHU'",
+        "type": "Person"
+    },
+    "created": "2021-12-29T08:05:19Z",
+    "modified": "2021-12-29T08:05:19Z"
+},
+{
+    "@context": [
+        "https://www.w3.org/ns/anno.jsonld",
+        "https://comments.acrobat.com/ns/anno.jsonld"
+    ],
+    "id": "799d88a0-d8ce-8fe7-76h0-1b49c995b85",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "bodyValue": "Rury dobieramy w zależności od potrzebnej długości L250, L500, L600",
+    "target": {
+        "source": "6d07d124-ac85-43b3-a867-36930f502ac6",
+        "selector": {
+            "node": {
+                "index": 4
+            },
+            "opacity": 0.4,
+            "subtype": "note",
+            "boundingBox": [
+                371.77937848151595,
+                538.2529180100285,
+                388.80744161807394,
+                555.2809811465866
+            ],
+            "strokeColor": "#fccb00",
+            "type": "AdobeAnnoSelector"
+        }
+    },
+    "creator": {
+        "id": "barylakweb@gmail.com",
+        "name": "Eksper Kamaro 'FHU'",
+        "type": "Person"
+    },
+    "created": "2021-12-29T08:07:24Z",
+    "modified": "2021-12-29T08:07:24Z"
 }
+
+
+
     ];
 
 var viewerConfig = {
@@ -167,10 +185,10 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
   
   const profile = {
   userProfile: {
-      name: "Sebastian",
-      firstName: "Baryl",
-      lastName: "seboi",
-      email: "barylakweb@gmail.com"
+      name: "Adex - Kominy ",
+      firstName: "Jan",
+      lastName: "Kowalski",
+      email: "adex@kominy.pl"
   }
 };
 
@@ -235,9 +253,9 @@ adobeDCView.registerCallback(
 
             function addCommentText(annotation) {
                 var type = annotation.target.selector.subtype;
-                var comment = prompt("Enter the text associated with " + type, "Added a " + type) || "Added a " + type;
-                 var count_order = prompt("Wpisz ilośc ", "ilosc ") || "ilosc sztuk ";
-                annotation.bodyValue = comment + " - " + count_order;
+                var comment = prompt("Wpisz numer zamowienia ", "nr") || "Dodano do zamówienia 0 ";
+                
+                annotation.bodyValue = "Dodano produkt do zamówienia " + comment;
                 annotationManager.updateAnnotation(annotation)
                     .then(function () {
                         console.log("Annotation updated successfully.");
@@ -276,7 +294,10 @@ adobeDCView.registerCallback(
                         document.getElementById(event.data.id).style.border = "2px solid #eee";
                     }
                     if (event.type === "ANNOTATION_UPDATED" && document.getElementById(event.data.id)) {
-                        document.getElementById(event.data.id).getElementsByTagName("label")[0].innerText = event.data.bodyValue;
+                        /* document.getElementById(event.data.id).getElementsByTagName("label")[0].innerText = event.data.bodyValue; */
+                          var nameproduct = prompt("Nazwij produkt dla siebie ", "wpisz nazwe") || "Dodano produkt ";
+                           var count_order = prompt("Wpisz ilośc ", "podaj wartosc ") || "ilosc sztuk 0 ";
+                        document.getElementById(event.data.id).getElementsByTagName("label")[0].innerText = nameproduct + " ilość : " + count_order;
                     }
                     if (event.type === "ANNOTATION_MODE_STARTED" && document.getElementById(event.data)) {
                         document.getElementById(event.data).style.opacity = "1.0";
@@ -310,15 +331,19 @@ var createAnnotationItem = function (annotation) {
     var editButton = document.createElement("button");//edit button
     var deleteButton = document.createElement("button");//delete button
 
-    label.innerText = annotation.bodyValue;
+     /* label.innerText = annotation.bodyValue; */ 
+
 
     /* Each elements, needs appending */
     editInput.type = "text";
 
-    editButton.innerText = "Edit";
+    editButton.innerText = "Edytuj";
     editButton.className = "edit";
     deleteButton.innerText = "Delete";
     deleteButton.className = "delete";
+
+
+label.innerText = "Nazwij produkt";
 
     /* and appending. */
     listItem.appendChild(label);
@@ -331,6 +356,12 @@ var createAnnotationItem = function (annotation) {
 /* This will add a new Annotation list item to List and attach action of Edit and Delete Buttons */
 var addAnnotation = function (annotation) {
     /* Create a new list item with the text from new annotation: */
+    console.log("seba");
+    console.log(annotation.creator.id);
+    if(annotation.creator.id == "barylakweb@gmail.com") {
+
+    } else {
+
     var listItem = createAnnotationItem(annotation);
     /* Append listItem to incompleteTaskHolder */
     annotsHolder.appendChild(listItem);
@@ -352,6 +383,7 @@ var addAnnotation = function (annotation) {
     listItem.onclick = function () {
         annotationManager.selectAnnotation(annotation.id).then(function () {}).catch(function () {});
     }
+} /* else creator id */
 };
 
 /* Edit an existing annotation using Annotation API and update the list item as well. */
@@ -369,13 +401,15 @@ var editAnnotation = function (annotation, parentNode) {
         label.innerText = editInput.value;
         editButton.textContent = "Edit";
         annotation.bodyValue = editInput.value;
-        annotationManager.updateAnnotation(annotation)
+       /*
+         annotationManager.updateAnnotation(annotation)
             .then(function () {
                 console.log("Annotation updated successfully.")
             })
             .catch(function (error) {
                 console.log(error)
             });
+*/
     } else {
         editInput.value = label.innerText;
         editButton.textContent = "Save";
