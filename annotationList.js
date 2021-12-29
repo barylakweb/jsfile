@@ -1,7 +1,6 @@
 /*
 Copyright 2020 Adobe
 All Rights Reserved.
-
 NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it. If you have received this file from a source other than Adobe,
@@ -237,7 +236,8 @@ adobeDCView.registerCallback(
             function addCommentText(annotation) {
                 var type = annotation.target.selector.subtype;
                 var comment = prompt("Enter the text associated with " + type, "Added a " + type) || "Added a " + type;
-                annotation.bodyValue = comment;
+                 var count_order = prompt("Wpisz ilośc ", "ilosc ") || "ilosc sztuk ";
+                annotation.bodyValue = comment + " - " + count_order;
                 annotationManager.updateAnnotation(annotation)
                     .then(function () {
                         console.log("Annotation updated successfully.");
@@ -463,4 +463,3 @@ var endAnnotationMode = function(mode, options) {
         .then(function () {})
         .catch(function(error) { console.log(error)});
 }
-
